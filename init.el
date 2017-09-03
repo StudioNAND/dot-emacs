@@ -134,13 +134,12 @@
              :pin melpa-stable)
 
 ;;; 
-(use-package ido-ubiquitous
+(use-package ido-completing-read+
              :ensure t
              :pin melpa-stable
              :config
              ;; enable C-x C-f history
-             (ido-mode t)
-             (ido-ubiquitous t))
+             (ido-ubiquitous-mode 1))
 
 ;;; JSON
 (use-package json-mode
