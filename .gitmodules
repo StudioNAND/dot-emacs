@@ -1,0 +1,3 @@
+[submodule "doxlight"]
+	path = doxlight
+	url = git@github.com:comkee/doxlight.git
